@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="POST">
+                <h1>Crea tu Cuenta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" name="" id="" placeholder="Nombre/s">
+                <input type="email" name="" id="" placeholder="E-mail">
+                <input type="password" name="" id="" placeholder="Contraseña">
+                <button>Unete</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form action="POST">
+                <h1>Ingresa a tu Cuenta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <span>or use your email and password</span>
+                <input type="email" name="" id="" placeholder="E-mail">
+                <input type="password" name="" id="" placeholder="Contraseña">
+                <a href="#">¿Olvidaste tu Contraseña?</a>
+                <button>Ingresa</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bienvenido de nuevo</h1>
+                    <p>Ingresa tus detalles personales para utilizar todas las funcionalidades del sitio</p>
+                    <button class="hidden btn" id="login">Ingresa a tu cuenta</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Unete a la familia</h1>
+                    <p>Registrate con tus detalles personales para utilizar todas las funcionalidades del sitio</p>
+                    <button class="hidden btn" id="register">Crea tu cuenta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

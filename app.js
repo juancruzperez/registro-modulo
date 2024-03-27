@@ -5,6 +5,7 @@ const uneteBtn = document.getElementById('unete');
 
 uneteBtn.addEventListener("click",function(event){
     event.preventDefault();
+})
 
 registerBtn.addEventListener('click',()=>{
     container.classList.add("active");
